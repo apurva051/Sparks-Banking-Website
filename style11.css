@@ -1,0 +1,164 @@
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background: url(bg.jpg);
+		background-size: cover;
+	    font-family: 'Open Sans', sans-serif;
+	}
+	.contact
+	{
+		width: 70%;
+		max-width: 600px;
+		background:rgba(0,0,0,0.6); 
+		top:50%;
+	    padding: 30px 30px;
+		left: 45%;
+		position:absolute;
+		transform: translate(-40%,-40%);
+		box-sizing: border-box;
+		border-radius: 8px;
+		text-align: center;
+		box-shadow: 0 0 20px #000000b3;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.contact h1
+	{
+		font-weight: 200;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	.txtb
+	{
+		border:1px solid gray;
+		margin: 8px 0;
+		padding: 10px 10px;
+		border-radius: 8px;
+	}
+	.txtb label
+	{
+		display: block;
+		text-align: left;
+		text-transform: uppercase;
+		color: white;
+		background-size: cover;
+	}
+	.txtb input, .txtb textarea
+	{
+		background: none;
+		border:none;
+		width: 100%;
+		outline: none;
+		color: white;
+		
+	}
+	.btn
+	{
+		display: block;
+		padding: 15px 10px;
+		text-transform: uppercase;
+	}
+	nav
+	{
+		position: fixed;
+		height: 80px;	
+		padding:10px 90px;
+		top: 0;
+		left:0;
+		box-sizing: border-box;
+		width: 100%;
+		height: 80px;
+		background: rgba(0,0,0,0.6);
+		border-bottom: 1px solid #fff;
+	}
+	nav .logo
+	{
+		float: left;
+		padding: 22px 20px;
+		height: 80px;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 24px;
+		color: #fff;
+
+	}
+	nav ul
+	{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		float: right;
+		display: flex;
+	}
+	nav ul li a
+	{
+		line-height: 50px;
+		color: #fff;
+		padding: 5px 30px;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	nav ul li a:hover
+	{
+		border-radius: 6px;
+		background: rgba(0,0,0,0.7);
+	}
+	.foot
+		{
+			position: absolute;
+			transform: translate(-50%,-50%);
+			top: 90%;
+			left: 50%;
+			text-align: center;
+			border:1px solid #34495e;
+		}
+	table
+		{	position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			width: 800px;
+			height: 200px;
+			border-collapse: collapse;
+			border: 1px solid;
+			padding: 2px 2px;
+			box-shadow: 2px 2px 12px;
+		}
+	.tab
+        {
+            position: absolute;
+            top: 30%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            box-shadow: 2px 2px;
+            border:1px solid ;
+            width: 800px;
+            height: 200px;
+            box-shadow: 2px 2px 12px;
+            border-collapse: collapse;
+        }
+	tr
+		{
+			cursor: pointer;
+			transition: all .2s ease-in;
+		}
+	th,td
+		{
+			text-align: center;
+			padding: 12px 21px;
+		}
+	
+	h2{
+			position: absolute;
+			left: 35%;
+			top: 15%;
+			padding: 10px 10px;
+		}
+
+    th,td
+        {
+            padding: 12px 12px;
+        }
+       
